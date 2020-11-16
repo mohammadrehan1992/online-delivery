@@ -28,14 +28,15 @@
 			"id":1,
 			"jobId":"1",
 			"userid":"2",
-			"assetType":"TC",
+			"assetType":"TC"
+		},
 			{
 			"id":1,
 			"jobId":"1",
 			"userid":"1",
 			"assetType":"TC"
-		}]
-	}],
+		}
+	],
 	
 	"contractors": [{
 			"id": 1,
