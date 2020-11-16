@@ -32,7 +32,7 @@
 		}
 	}],
 	
-	"contractor": [{
+	"contractors": [{
 			"id": 1,
 			"name": "Alec",
 			"projectid": 1
@@ -43,7 +43,7 @@
 			"postId": 1
 		}
 	],
-	"asset": [{
+	"assets": [{
 		"id": "1",
 		"name": "TC",
 		"projectId": "1",
@@ -61,7 +61,7 @@
 		"projectId": "1",
 		"type": "Bays"
 	}],
-	"task": [{
+	"tasks": [{
 		"id": 1,
 		"name": "Task 1",
 		"parentTaskId": "3",
@@ -75,7 +75,7 @@
 		"projectId": "1",
 		"taskType": "loading"
 	}],
-	"milestone": [{
+	"milestones": [{
 			"id": 1,
 			"name": "building",
 			"projectId": "1",
