@@ -44,5 +44,20 @@
 		"parentTaskId": "3",
 		"projectId": "1",
 		"taskType": ""
-	}
+	},
+	"milestone": [{
+			"id": 1,
+			"name": "building",
+			"projectId": "1",
+			"parentMilestoneId": "",
+			"mileStoneType": ""
+		},
+		{
+			"id": "2",
+			"name": "Plaza",
+			"projectId": "1",
+			"parentMilestoneId": "3",
+			"mileStoneType": ""
+		}
+	]
 }
