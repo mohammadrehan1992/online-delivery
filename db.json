@@ -17,6 +17,23 @@
 		"gateid": "2",
 		"locationid": "2"
 	}],
+	"jobhistoy":{
+		"id":1,
+		"jobId":"1",
+		"actionById":"2",
+		"action":"test",
+		"description":""
+	},
+	"jobtimelog":{
+		"id":1,
+		"jobId":"1",
+		"userid":"2",
+		"startTime":"test",
+		"endTime":"",
+		"duration":"",
+		"assetId":"2",
+		"assetType":"TC"
+	},
 	"contractor": [{
 			"id": 1,
 			"name": "Alec",
@@ -38,6 +55,12 @@
 		"id": 1,
 		"name": "building"
 	},
+	"user": {
+		"id": 1,
+		"name": "building",
+		"projectid":"1"
+	},
+	
 	"task": {
 		"id": 1,
 		"name": "Task 1",
