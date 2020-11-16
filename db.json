@@ -28,10 +28,6 @@
 		"id":1,
 		"jobId":"1",
 		"userid":"2",
-		"startTime":"test",
-		"endTime":"",
-		"duration":"",
-		"assetId":"2",
 		"assetType":"TC"
 	},
 	"contractor": [{
