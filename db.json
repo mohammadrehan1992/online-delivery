@@ -16,20 +16,25 @@
 		"duration": "2hr",
 		"gateid": "2",
 		"locationid": "2",
-		"jobhistoy":{
+		"jobhistoy":[{
 			"id":1,
 			"jobId":"1",
 			"actionById":"2",
 			"actionByName":"test",
 			"action":"test",
 			"description":""
-				},
-		"jobtimelog":{
+				}],
+		"jobtimelog":[{
 			"id":1,
 			"jobId":"1",
 			"userid":"2",
+			"assetType":"TC",
+			{
+			"id":1,
+			"jobId":"1",
+			"userid":"1",
 			"assetType":"TC"
-		}
+		}]
 	}],
 	
 	"contractors": [{
