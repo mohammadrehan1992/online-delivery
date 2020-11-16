@@ -15,21 +15,22 @@
 		"endTime": "10:00",
 		"duration": "2hr",
 		"gateid": "2",
-		"locationid": "2"
+		"locationid": "2",
+		"jobhistoy":{
+			"id":1,
+			"jobId":"1",
+			"actionById":"2",
+			"action":"test",
+			"description":""
+				},
+		"jobtimelog":{
+			"id":1,
+			"jobId":"1",
+			"userid":"2",
+			"assetType":"TC"
+		}
 	}],
-	"jobhistoy":{
-		"id":1,
-		"jobId":"1",
-		"actionById":"2",
-		"action":"test",
-		"description":""
-	},
-	"jobtimelog":{
-		"id":1,
-		"jobId":"1",
-		"userid":"2",
-		"assetType":"TC"
-	},
+	
 	"contractor": [{
 			"id": 1,
 			"name": "Alec",
@@ -46,5 +47,27 @@
 		"name": "building",
 		"projectId": "1",
 		"type": ""
-	}
+	},
+	"task": {
+		"id": 1,
+		"name": "Task 1",
+		"parentTaskId": "3",
+		"projectId": "1",
+		"taskType": ""
+	},
+	"milestone": [{
+			"id": 1,
+			"name": "building",
+			"projectId": "1",
+			"parentMilestoneId": "",
+			"mileStoneType": ""
+		},
+		{
+			"id": "2",
+			"name": "Plaza",
+			"projectId": "1",
+			"parentMilestoneId": "3",
+			"mileStoneType": ""
+		}
+	]
 }
