@@ -27,11 +27,5 @@
 			"name": "Access Middle East LLC",
 			"postId": 1
 		}
-	],
-	"asset": [{
-		"id": "1",
-		"name": "building",
-		"projectId": "1",
-		"type": ""
-	}]
+	]
 }
