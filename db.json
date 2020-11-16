@@ -55,7 +55,7 @@
 		"duration": "2hr",
 		"gateid": "2",
 		"locationid": "2",
-		"status":"booked"
+		"status":"booked",
 		"jobhistoy":[{
 			"id":1,
 			"jobId":"1",
@@ -94,7 +94,7 @@
 		"duration": "2hr",
 		"gateid": "2",
 		"locationid": "2",
-		"status":"completed"
+		"status":"completed",
 		"jobhistoy":[{
 			"id":1,
 			"jobId":"1",
