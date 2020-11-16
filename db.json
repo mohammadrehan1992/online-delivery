@@ -27,5 +27,22 @@
 			"name": "Access Middle East LLC",
 			"postId": 1
 		}
-	]
+	],
+	"asset": {
+		"id": "1",
+		"name": "building",
+		"projectId": "1",
+		"type": ""
+	},
+	"project": {
+		"id": 1,
+		"name": "building"
+	},
+	"task": {
+		"id": 1,
+		"name": "Task 1",
+		"parentTaskId": "3",
+		"projectId": "1",
+		"taskType": ""
+	}
 }
