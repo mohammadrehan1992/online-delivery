@@ -43,19 +43,38 @@
 			"postId": 1
 		}
 	],
-	"asset": {
+	"asset": [{
 		"id": "1",
-		"name": "building",
+		"name": "TC",
 		"projectId": "1",
-		"type": ""
+		"type": "TowerCranes"
 	},
-	"task": {
+		 {
+		"id": "1",
+		"name": "MC-1",
+		"projectId": "1",
+		"type": "MobileCranes"
+	},
+		 {
+		"id": "1",
+		"name": "Bays-01",
+		"projectId": "1",
+		"type": "Bays"
+	}],
+	"task": [{
 		"id": 1,
 		"name": "Task 1",
 		"parentTaskId": "3",
 		"projectId": "1",
-		"taskType": ""
+		"taskType": "lifting"
 	},
+		{
+		"id": 1,
+		"name": "Task 2",
+		"parentTaskId": "2",
+		"projectId": "1",
+		"taskType": "loading"
+	}],
 	"milestone": [{
 			"id": 1,
 			"name": "building",
