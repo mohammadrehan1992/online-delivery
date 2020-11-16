@@ -1,15 +1,44 @@
 
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "jobs": [
+    { "id": 1, "projectid":"1", "requestid":"1","operatorid":"12", "assetid", "2", "assettype":"TC", 
+     "contractorid":"2", "taskid":"2", "milestoneid":"3", "startDate":"2020-11-16", "endDate":"",
+     "startTime":"08:00", "endTime":"10:00", "duration":"2hr" , "gateid":"2", "locationid":"2"  }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "contractor": [
+    { "id": 1, "name": "Alec", "projectid": 1 },
+    { "id": 2, "name": "Access Middle East LLC", "postId": 1 }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+     "asset": [
+      {"id" : "1", 
+      "name":"building",
+      "projectId":"1",
+      "type":""
+   },
+  "project": {
+    "id" : "1", 
+    "name":"building"
+  },
+    "task": {
+    "id" : "1", 
+    "name":"Task 1",
+      "parentTaskId":"3",
+      "projectId":"1",
+      "taskType":""
+  },
+   "milestone": [
+      {"id" : "1", 
+      "name":"building",
+      "projectId":"1",
+      "parentMilestoneId":"",
+      "mileStoneType":""
+    },
+    {
+      "id" : "2", 
+      "name":"Plaza",
+      "projectId":"1",
+      "parentMilestoneId":"3",
+      "mileStoneType":""
+      }
+  ],
 }
